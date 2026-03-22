@@ -17,7 +17,7 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-  # Expose port 4200 outside container
-  EXPOSE 4200
-  # Command used to start application
-  CMD ng serve --host 0.0.0.0
+# Expose port 4200 outside container
+EXPOSE 4200
+# Command used to start application
+CMD ng serve --host 0.0.0.0
